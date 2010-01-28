@@ -5038,7 +5038,7 @@ Students investigate friction while:
                                             <OTText />
                                             <OTScriptButton id="f10fb58b-7ac4-11dd-b5e2-f5d4039a183c" text="Check answer">
                                               <script>
-                                                <OTJRuby src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/smart_graph_label_script_template.rb">
+                                                <OTJRuby src="scripts/smart_graph_label_script_template.rb">
                                                   <script># Original template file: scripts/smart_graph_label_script_template.rb
 
 # Setting the DEBUG constant to true will generate additional 
@@ -5148,7 +5148,7 @@ end</script>
                                             </OTScriptButton>
                                             <OTScriptButton id="f10fb58c-7ac4-11dd-b5e2-f5d4039a183c" text="Setup">
                                               <script>
-                                                <OTJavascript src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/set-up-smartgraph-button-script.js" />
+                                                <OTJavascript src="scripts/set-up-smartgraph-button-script.js" />
                                               </script>
                                               <scriptVariables>
                                                 <OTScriptVariable name="script_button">
@@ -5212,7 +5212,7 @@ end</script>
                                             <OTText />
                                             <OTScriptButton id="626a1c9f-7ac5-11dd-b5e2-f5d4039a183c" text="Check answer">
                                               <script>
-                                                <OTJRuby src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/smart_graph_label_script_template.rb">
+                                                <OTJRuby src="scripts/smart_graph_label_script_template.rb">
                                                   <script># Original template file: scripts/smart_graph_label_script_template.rb
 
 # Setting the DEBUG constant to true will generate additional 
@@ -5322,7 +5322,7 @@ end</script>
                                             </OTScriptButton>
                                             <OTScriptButton id="626a1ca0-7ac5-11dd-b5e2-f5d4039a183c" text="Setup">
                                               <script>
-                                                <OTJavascript src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/set-up-smartgraph-button-script.js" />
+                                                <OTJavascript src="scripts/set-up-smartgraph-button-script.js" />
                                               </script>
                                               <scriptVariables>
                                                 <OTScriptVariable name="script_button">
@@ -5386,7 +5386,7 @@ end</script>
                                             <OTText />
                                             <OTScriptButton id="690cea2e-7ac6-11dd-b5e2-f5d4039a183c" text="Check answer">
                                               <script>
-                                                <OTJRuby src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/smart_graph_label_script_template.rb">
+                                                <OTJRuby src="scripts/smart_graph_label_script_template.rb">
                                                   <script># Original template file: scripts/smart_graph_label_script_template.rb
 
 # Setting the DEBUG constant to true will generate additional 
@@ -5494,7 +5494,7 @@ end</script>
                                             </OTScriptButton>
                                             <OTScriptButton id="690cea2f-7ac6-11dd-b5e2-f5d4039a183c" text="Setup">
                                               <script>
-                                                <OTJavascript src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/set-up-smartgraph-button-script.js" />
+                                                <OTJavascript src="scripts/set-up-smartgraph-button-script.js" />
                                               </script>
                                               <scriptVariables>
                                                 <OTScriptVariable name="script_button">
@@ -5558,7 +5558,7 @@ end</script>
                                             <OTText />
                                             <OTScriptButton id="a9119d22-7ac6-11dd-b5e2-f5d4039a183c" text="Check answer">
                                               <script>
-                                                <OTJRuby src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/smart_graph_label_script_template.rb">
+                                                <OTJRuby src="scripts/smart_graph_label_script_template.rb">
                                                   <script># Original template file: scripts/smart_graph_label_script_template.rb
 
 # Setting the DEBUG constant to true will generate additional 
@@ -5666,7 +5666,7 @@ end</script>
                                             </OTScriptButton>
                                             <OTScriptButton id="a9119d23-7ac6-11dd-b5e2-f5d4039a183c" text="Setup">
                                               <script>
-                                                <OTJavascript src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/set-up-smartgraph-button-script.js" />
+                                                <OTJavascript src="scripts/set-up-smartgraph-button-script.js" />
                                               </script>
                                               <scriptVariables>
                                                 <OTScriptVariable name="script_button">
@@ -5730,7 +5730,7 @@ end</script>
                                             <OTText id="13e1d280-7ac7-11dd-b5e2-f5d4039a183c" />
                                             <OTScriptButton id="13e1d281-7ac7-11dd-b5e2-f5d4039a183c" text="Check answer">
                                               <script>
-                                                <OTJRuby src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/smart_graph_number_script_template.rb">
+                                                <OTJRuby src="scripts/smart_graph_number_script_template.rb">
                                                   <script># Original template file: scripts/smart_graph_number_script_template.rb
 
 # Setting the DEBUG constant to true will generate additional 
@@ -5850,7 +5850,7 @@ end</script>
                                             </OTScriptButton>
                                             <OTScriptButton id="13e1d282-7ac7-11dd-b5e2-f5d4039a183c" text="Setup">
                                               <script>
-                                                <OTJavascript src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/set-up-smartgraph-button-script.js" />
+                                                <OTJavascript src="scripts/set-up-smartgraph-button-script.js" />
                                               </script>
                                               <scriptVariables>
                                                 <OTScriptVariable name="text_field">
@@ -5921,7 +5921,7 @@ end</script>
                                             <OTText id="b0204c06-7ac7-11dd-b5e2-f5d4039a183c" />
                                             <OTScriptButton id="b0204c07-7ac7-11dd-b5e2-f5d4039a183c" text="Check answer">
                                               <script>
-                                                <OTJRuby src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/smart_graph_number_script_template.rb">
+                                                <OTJRuby src="scripts/smart_graph_number_script_template.rb">
                                                   <script># Original template file: scripts/smart_graph_number_script_template.rb
 
 # Setting the DEBUG constant to true will generate additional 
@@ -6041,7 +6041,7 @@ end</script>
                                             </OTScriptButton>
                                             <OTScriptButton id="b0204c08-7ac7-11dd-b5e2-f5d4039a183c" text="Setup">
                                               <script>
-                                                <OTJavascript src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/set-up-smartgraph-button-script.js" />
+                                                <OTJavascript src="scripts/set-up-smartgraph-button-script.js" />
                                               </script>
                                               <scriptVariables>
                                                 <OTScriptVariable name="text_field">
@@ -6112,7 +6112,7 @@ end</script>
                                             <OTText id="57c244ce-7ac8-11dd-b5e2-f5d4039a183c" />
                                             <OTScriptButton id="57c244cf-7ac8-11dd-b5e2-f5d4039a183c" text="Check answer">
                                               <script>
-                                                <OTJRuby src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/smart_graph_number_script_template.rb">
+                                                <OTJRuby src="scripts/smart_graph_number_script_template.rb">
                                                   <script># Original template file: scripts/smart_graph_number_script_template.rb
 
 # Setting the DEBUG constant to true will generate additional 
@@ -6233,7 +6233,7 @@ end</script>
                                             </OTScriptButton>
                                             <OTScriptButton id="57c244d0-7ac8-11dd-b5e2-f5d4039a183c" text="Setup">
                                               <script>
-                                                <OTJavascript src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/set-up-smartgraph-button-script.js" />
+                                                <OTJavascript src="scripts/set-up-smartgraph-button-script.js" />
                                               </script>
                                               <scriptVariables>
                                                 <OTScriptVariable name="text_field">
@@ -6304,7 +6304,7 @@ end</script>
                                             <OTText id="eccf5014-7ac8-11dd-b5e2-f5d4039a183c" />
                                             <OTScriptButton id="eccf5015-7ac8-11dd-b5e2-f5d4039a183c" text="Check answer">
                                               <script>
-                                                <OTJRuby src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/smart_graph_number_script_template.rb">
+                                                <OTJRuby src="scripts/smart_graph_number_script_template.rb">
                                                   <script># Original template file: scripts/smart_graph_number_script_template.rb
 
 # Setting the DEBUG constant to true will generate additional 
@@ -6425,7 +6425,7 @@ end</script>
                                             </OTScriptButton>
                                             <OTScriptButton id="eccf5016-7ac8-11dd-b5e2-f5d4039a183c" text="Setup">
                                               <script>
-                                                <OTJavascript src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/set-up-smartgraph-button-script.js" />
+                                                <OTJavascript src="scripts/set-up-smartgraph-button-script.js" />
                                               </script>
                                               <scriptVariables>
                                                 <OTScriptVariable name="text_field">
@@ -9603,7 +9603,7 @@ end</script>
                                             <OTText />
                                             <OTScriptButton id="638bf74e-84e4-11dd-8573-f1eec8b7feab" text="Check answer">
                                               <script>
-                                                <OTJRuby src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/smart_graph_label_script_template.rb">
+                                                <OTJRuby src="scripts/smart_graph_label_script_template.rb">
                                                   <script># Original template file: scripts/smart_graph_label_script_template.rb
 
 # Setting the DEBUG constant to true will generate additional 
@@ -9711,7 +9711,7 @@ end</script>
                                             </OTScriptButton>
                                             <OTScriptButton id="638bf74f-84e4-11dd-8573-f1eec8b7feab" text="Setup">
                                               <script>
-                                                <OTJavascript src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/set-up-smartgraph-button-script.js" />
+                                                <OTJavascript src="scripts/set-up-smartgraph-button-script.js" />
                                               </script>
                                               <scriptVariables>
                                                 <OTScriptVariable name="script_button">
@@ -9780,7 +9780,7 @@ end</script>
                                             <OTText />
                                             <OTScriptButton id="294d6ca5-84e5-11dd-8573-f1eec8b7feab" text="Check answer">
                                               <script>
-                                                <OTJRuby src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/smart_graph_label_script_template.rb">
+                                                <OTJRuby src="scripts/smart_graph_label_script_template.rb">
                                                   <script># Original template file: scripts/smart_graph_label_script_template.rb
 
 # Setting the DEBUG constant to true will generate additional 
@@ -9888,7 +9888,7 @@ end</script>
                                             </OTScriptButton>
                                             <OTScriptButton id="294d6ca6-84e5-11dd-8573-f1eec8b7feab" text="Setup">
                                               <script>
-                                                <OTJavascript src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/set-up-smartgraph-button-script.js" />
+                                                <OTJavascript src="scripts/set-up-smartgraph-button-script.js" />
                                               </script>
                                               <scriptVariables>
                                                 <OTScriptVariable name="script_button">
@@ -9952,7 +9952,7 @@ end</script>
                                             <OTText />
                                             <OTScriptButton id="b5cbeaa0-84e5-11dd-8573-f1eec8b7feab" text="Check answer">
                                               <script>
-                                                <OTJRuby src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/smart_graph_label_script_template.rb">
+                                                <OTJRuby src="scripts/smart_graph_label_script_template.rb">
                                                   <script># Original template file: scripts/smart_graph_label_script_template.rb
 
 # Setting the DEBUG constant to true will generate additional 
@@ -10061,7 +10061,7 @@ end</script>
                                             </OTScriptButton>
                                             <OTScriptButton id="b5cbeaa1-84e5-11dd-8573-f1eec8b7feab" text="Setup">
                                               <script>
-                                                <OTJavascript src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/set-up-smartgraph-button-script.js" />
+                                                <OTJavascript src="scripts/set-up-smartgraph-button-script.js" />
                                               </script>
                                               <scriptVariables>
                                                 <OTScriptVariable name="script_button">
@@ -10121,7 +10121,7 @@ end</script>
                                             <OTText id="0397d73f-84e6-11dd-8573-f1eec8b7feab" />
                                             <OTScriptButton id="0397d740-84e6-11dd-8573-f1eec8b7feab" text="Check answer">
                                               <script>
-                                                <OTJRuby src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/smart_graph_number_script_template.rb">
+                                                <OTJRuby src="scripts/smart_graph_number_script_template.rb">
                                                   <script># Original template file: scripts/smart_graph_number_script_template.rb
 
 # Setting the DEBUG constant to true will generate additional 
@@ -10242,7 +10242,7 @@ end</script>
                                             </OTScriptButton>
                                             <OTScriptButton id="0397d741-84e6-11dd-8573-f1eec8b7feab" text="Setup">
                                               <script>
-                                                <OTJavascript src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/set-up-smartgraph-button-script.js" />
+                                                <OTJavascript src="scripts/set-up-smartgraph-button-script.js" />
                                               </script>
                                               <scriptVariables>
                                                 <OTScriptVariable name="text_field">
@@ -10318,7 +10318,7 @@ end</script>
                                             <OTText id="893d1910-84e6-11dd-8573-f1eec8b7feab" />
                                             <OTScriptButton id="893d1911-84e6-11dd-8573-f1eec8b7feab" text="Check answer">
                                               <script>
-                                                <OTJRuby src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/smart_graph_number_script_template.rb">
+                                                <OTJRuby src="scripts/smart_graph_number_script_template.rb">
                                                   <script># Original template file: scripts/smart_graph_number_script_template.rb
 
 # Setting the DEBUG constant to true will generate additional 
@@ -10438,7 +10438,7 @@ end</script>
                                             </OTScriptButton>
                                             <OTScriptButton id="893d1912-84e6-11dd-8573-f1eec8b7feab" text="Setup">
                                               <script>
-                                                <OTJavascript src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/set-up-smartgraph-button-script.js" />
+                                                <OTJavascript src="scripts/set-up-smartgraph-button-script.js" />
                                               </script>
                                               <scriptVariables>
                                                 <OTScriptVariable name="text_field">
@@ -15739,7 +15739,7 @@ sandpaper: 35.3</bodyText>
                                     </OTScriptVariableComponent>
                                   </scriptVariables>
                                   <script>
-                                    <OTJavascript src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/wrap-up_script.js" />
+                                    <OTJavascript src="scripts/wrap-up_script.js" />
                                   </script>
                                 </OTScriptButton>
                                 <object refid="4f731e40-c257-11dc-95ff-0800200c9a66!/password-answer" />
@@ -16465,7 +16465,7 @@ It's not true that friction is never useful. Without friction, you couldn't slow
         <OTUDLMenuRule local_id="page-rule" jumpToViewedCard="true" stepAhead="true" />
         <OTJavascript local_id="change_page.js" src="jres:/org/concord/otrunk/udl/scripts/change_page.js" />
         <OTJavascript local_id="show_message.js" src="jres:/org/concord/otrunk/udl/scripts/show_message.js" />
-        <OTJavascript local_id="authoring_script.js" src="https://svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL/scripts/authoring_script.js" />
+        <OTJavascript local_id="authoring_script.js" src="scripts/authoring_script.js" />
         <OTScriptObject local_id="authoring-script">
           <variables>
             <OTScriptVariable name="cardContainer">
