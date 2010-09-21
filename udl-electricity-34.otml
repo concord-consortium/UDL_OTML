@@ -9124,7 +9124,7 @@ electrical current can pass.
                             <OTUDLQuestion id="cc4d5c09-cd37-11dd-95c4-c390355ee94a" name="Question" showConvertButton="true">
                               <prompt>
                                 <OTCompoundDoc>
-                                  <bodyText>Use your written answers and your snapshots to answer this question: what is the voltage of combinations of batteries?</bodyText>
+                                  <bodyText>Use your written answers and your snapshots to answer this question: what is the combined voltage of several batteries?</bodyText>
                                 </OTCompoundDoc>
                               </prompt>
                               <input>
