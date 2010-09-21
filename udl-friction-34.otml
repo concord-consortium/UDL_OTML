@@ -6904,7 +6904,7 @@ end</script>
                                         </OTCompoundDoc>
                                       </prompt>
                                       <input>
-                                        <OTChoice name="Multiple choice" alignContent="0">
+                                        <OTChoice name="Multiple choice" alignContent="0" horizontal="false">
                                           <choices>
                                             <OTCompoundDoc name="Yes">
                                               <bodyText>Yes</bodyText>
@@ -9751,7 +9751,7 @@ end</script>
                                     <OTUDLQuestion id="21965cee-7abe-11dd-aad5-236dc663e6a0" name="Question" showConvertButton="true">
                                       <prompt>
                                         <OTCompoundDoc>
-                                          <bodyText>What was the average force needed to keep the box moving (in Newtons)?</bodyText>
+                                          <bodyText>What was the average force needed to keep the shoe moving (in Newtons)?</bodyText>
                                         </OTCompoundDoc>
                                       </prompt>
                                       <input>
@@ -9944,7 +9944,7 @@ end</script>
                                         </OTCompoundDoc>
                                       </prompt>
                                       <input>
-                                        <OTChoice name="Multiple choice" alignContent="0">
+                                        <OTChoice name="Multiple choice" alignContent="0" horizontal="false">
                                           <choices>
                                             <OTCompoundDoc name="Yes">
                                               <bodyText>Yes</bodyText>
