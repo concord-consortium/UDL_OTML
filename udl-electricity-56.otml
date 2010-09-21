@@ -1673,7 +1673,7 @@ Some energy is always lost as heat when it is transferred. So the amount of ligh
                                         </OTUDLCompoundDoc>
                                       </prompt>
                                       <input>
-                                        <OTChoice name="Multiple choice" alignContent="0">
+                                        <OTChoice name="Multiple choice" alignContent="0" horizontal="false">
                                           <choices>
                                             <OTCompoundDoc name="true">
                                               <bodyText>true</bodyText>
@@ -2719,7 +2719,7 @@ Some energy is always lost as heat when it is transferred. So the amount of ligh
                     <object refid="${nav-bar}" />
                   </south>
                 </OTUDLSection>
-                <OTUDLSection local_id="section_3" name="Electrical birthday party" isComputerBased="false" isIntroduction="false" isMath="false" isPosttest="false" isPretest="false" isReading="true" isWrapup="false" description="Read a story about charged balloons and a magical magnifying glass.">
+                <OTUDLSection local_id="section_3" name="Electrical Birthday Party" isComputerBased="false" isIntroduction="false" isMath="false" isPosttest="false" isPretest="false" isReading="true" isWrapup="false" description="Read a story about charged balloons and a magical magnifying glass.">
                   <content>
                     <OTCardContainer id="540fd1a8-7764-11dc-bcdb-d9cc05265d45" contentsMayScroll="true" loadViewOnlyOnDemand="true" closeViewOnExit="true">
                       <cards>
@@ -2950,21 +2950,21 @@ Some energy is always lost as heat when it is transferred. So the amount of ligh
                                   <br />
                                   Margaret 
           had an idea. "If all these balloons stick to sweaters," she thought, 
-          maybe I can get them to stick to each other! Then I could make a big 
-          bunch of balloons and float away!"
+          "maybe I can get them to stick to each other! Then I could make a 
+          big bunch of balloons and float away!"
                                   <br />
                                   <br />
-                                  Margaret found a blue balloon taped to the wall. She pulled the tape off 
-          and held the string in her hand. Then she found a yellow balloon 
-          attached to the ceiling. She pulled that one loose and held its 
-          string in her other hand.
+                                  Margaret found a 
+          blue balloon taped to the wall. She pulled the tape off and held the 
+          string in her hand. Then she found a yellow balloon attached to the 
+          ceiling. She pulled that one loose and held its string in her other 
+          hand.
                                   <br />
                                   <br />
-                                  Margaret rubbed the blue balloon on 
-          her sweater. It stuck to her sweater. Then she rubbed the yellow 
-          balloon on her sweater. It stuck, too. Then Margaret pulled the 
-          balloons off her sweater and tried to get them to stick to each 
-          other.
+                                  Margaret rubbed the blue balloon on her sweater. It 
+          stuck to her sweater. Then she rubbed the yellow balloon on her 
+          sweater. It stuck, too. Then Margaret pulled the balloons off her 
+          sweater and tried to get them to stick to each other.
                                 </div>
                               </div>
                             </div>
@@ -3816,7 +3816,7 @@ Some energy is always lost as heat when it is transferred. So the amount of ligh
                                   <br />
                                   <br />
                                   <center>
-                                    <img src="http://udl.concord.org/artwork/elect_34/el_34_story_sketches/el_34_scarf.png" border="1" />
+                                    <img border="1" src="http://udl.concord.org/artwork/elect_34/el_34_story_sketches/el_34_scarf.png" />
                                   </center>
                                   <br />
                                   <br />
@@ -3826,10 +3826,11 @@ Some energy is always lost as heat when it is transferred. So the amount of ligh
           scarf was lighter than the sweaters and when the children rubbed the 
           two ends with a balloon, they pushed on each other just the way the 
           balloons had. When the children looked through Elvira's magnifying 
-          glass the scarf had little plus signs on it, just like the sweaters.
+          glass, the scarf had little plus signs on it, just like the sweaters.
                                   <br />
                                   <br />
-                                  "We've proved that positive charges repel each other, too," Chen announced 
+                                  "We've 
+          proved that positive charges repel each other, too," Chen announced 
           proudly.
                                 </div>
                               </div>
@@ -4079,7 +4080,7 @@ surrounded by negatively charged electrons.</goals>
           zero than -3, so it must be a bigger number!"
                                   <br />
                                   "But -6 is 
-          lower down on the number line than -3," Margeret pointed out. "The 
+          lower down on the number line than -3," Margaret pointed out. "The 
           negative sign
                                   <i>reverses</i>
                                   everything. So -6 is
@@ -5838,7 +5839,7 @@ surrounded by negatively charged electrons.
                                 </OTUDLCompoundDoc>
                               </prompt>
                               <input>
-                                <OTChoice name="Multiple choice" alignContent="0">
+                                <OTChoice name="Multiple choice" alignContent="0" horizontal="false">
                                   <choices>
                                     <OTCompoundDoc name="series circuit">
                                       <bodyText>series circuit</bodyText>
@@ -6394,7 +6395,7 @@ surrounded by negatively charged electrons.
                                     </tr>
                                   </table>
                                   One wonderful thing about electrical energy is that it can be 
-          changed into other forms of energy that are are useful for many 
+          changed into other forms of energy that are useful for many 
           purposes. For example, it can run a motor or light a bulb.
                                   <p />
                                   However, this change is never 100% efficient. Some of the energy 
@@ -8742,7 +8743,7 @@ end</script>
                                 </OTUDLCompoundDoc>
                               </prompt>
                               <input>
-                                <OTChoice name="Multiple choice" alignContent="0">
+                                <OTChoice name="Multiple choice" alignContent="0" horizontal="false">
                                   <choices>
                                     <OTCompoundDoc id="88742f80-d66c-11dc-b640-654f33185332/input/choices[0]" name="yes">
                                       <bodyText>yes</bodyText>
@@ -9107,7 +9108,7 @@ end</script>
                             </OTLabbookButton>
                             <OTDataCollector id="09187de2-a449-11dc-aee8-0d3d3ace7034" name="Temperature" title="Temperature Sensor Graph" autoScaleEnabled="true" multipleGraphableEnabled="true" useDefaultToolBar="false" displayButtons="0,1,2,3,4,6,">
                               <source>
-                                <OTDataGraphable name="two" connectPoints="true" yColumn="1" drawMarks="false" color="16711731" xColumn="0" lineWidth="2.0" visible="true">
+                                <OTDataGraphable name="two" connectPoints="true" yColumn="1" drawMarks="false" color="16711731" xColumn="0" lineWidth="2.0" visible="true" showAllChannels="false">
                                   <dataProducer>
                                     <OTSensorDataProxy name="dataproducer">
                                       <request>
@@ -9140,7 +9141,7 @@ end</script>
                                 </OTDataAxis>
                               </yDataAxis>
                               <graphables>
-                                <OTDataGraphable name="Clear" connectPoints="true" yColumn="1" drawMarks="false" color="255" xColumn="0" lineWidth="2.0" locked="true" visible="true">
+                                <OTDataGraphable name="Clear" connectPoints="true" yColumn="1" drawMarks="false" color="255" xColumn="0" lineWidth="2.0" locked="true" visible="true" showAllChannels="false">
                                   <dataProducer>
                                     <object refid="ea86af34-9dec-11dc-b759-59911fa1fcdf" />
                                   </dataProducer>
@@ -9148,7 +9149,7 @@ end</script>
                                     <object refid="ea86af35-9dec-11dc-b759-59911fa1fcdf" />
                                   </dataStore>
                                 </OTDataGraphable>
-                                <OTDataGraphable name="foil" connectPoints="true" yColumn="1" drawMarks="false" color="3407667" xColumn="0" lineWidth="2.0" locked="true" visible="true">
+                                <OTDataGraphable name="foil" connectPoints="true" yColumn="1" drawMarks="false" color="3407667" xColumn="0" lineWidth="2.0" locked="true" visible="true" showAllChannels="false">
                                   <dataProducer>
                                     <object refid="0627a4c9-a437-11dc-a4ee-89d313ed1ef9/source/dataProducer" />
                                   </dataProducer>
@@ -9235,7 +9236,7 @@ end</script>
                                 <OTUDLQuestion name="L5" showConvertButton="false" showScaffolding="true">
                                   <prompt>
                                     <OTUDLCompoundDoc>
-                                      <bodyText>The types of energy produced by the bulb?</bodyText>
+                                      <bodyText>What are the types of energy produced by the bulb?</bodyText>
                                     </OTUDLCompoundDoc>
                                   </prompt>
                                   <input>
