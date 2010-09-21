@@ -137,8 +137,8 @@
                   <dataStore>
                     <OTDataStore dt="0.1" numberChannels="1">
                       <channelDescriptions>
-                        <OTDataChannelDescription name="dt" precision="2" numericData="true" />
-                        <OTDataChannelDescription name="" unit="degC" precision="-1" numericData="true" />
+                        <OTDataChannelDescription name="time" unit="s" precision="-2" numericData="true" />
+                        <OTDataChannelDescription name="Temperature" unit="degC" precision="-1" numericData="true" />
                       </channelDescriptions>
                     </OTDataStore>
                   </dataStore>
@@ -183,8 +183,8 @@
                   <dataStore>
                     <OTDataStore dt="0.1" numberChannels="1">
                       <channelDescriptions>
-                        <OTDataChannelDescription name="dt" precision="2" numericData="true" />
-                        <OTDataChannelDescription name="" unit="degC" precision="-1" numericData="true" />
+                        <OTDataChannelDescription name="time" unit="s" precision="-2" numericData="true" />
+                        <OTDataChannelDescription name="Temperature" unit="degC" precision="-1" numericData="true" />
                       </channelDescriptions>
                     </OTDataStore>
                   </dataStore>
@@ -2955,14 +2955,13 @@ Take a snapshot of your drawing.
                                       </td>
                                     </tr>
                                   </table>
-                                  "And then the sun he
-                                  <!-- -->
-                                  ats the water up and it evaporates and turns into water vapor. And then it 
-          goes up in the air and condenses and turns back into a cloud," said 
-          Eduardo.
+                                  "And then the sun heats the water up and it evaporates and 
+          turns into water vapor. And then it goes up in the air and condenses 
+          and turns back into a cloud," said Eduardo.
                                   <br />
                                   <br />
-                                  "It goes round and round!" said Margaret, happily.
+                                  "It goes 
+          round and round!" said Margaret, happily.
                                   <br />
                                   <br />
                                   Margaret's 
@@ -7356,7 +7355,7 @@ end</script>
                             </OTLabbookButton>
                             <OTDataCollector id="1b4395d9-6fc4-11dd-90e9-290d96238731" name="Temperature" title="Finger temperature: sample data" autoScaleEnabled="true" showControlBar="false" useDefaultToolBar="false" displayButtons="0,3,4,">
                               <source>
-                                <OTDataGraphable name="Sensor" connectPoints="true" yColumn="1" drawMarks="false" color="255" xColumn="0" lineWidth="2.0" visible="true">
+                                <OTDataGraphable name="Sensor" connectPoints="true" yColumn="1" drawMarks="false" color="255" xColumn="0" lineWidth="2.0" visible="true" showAllChannels="false">
                                   <dataProducer>
                                     <OTSensorDataProxy name="dataproducer">
                                       <request>
@@ -8535,7 +8534,7 @@ end</script>
                                         </OTCompoundDoc>
                                       </prompt>
                                       <input>
-                                        <OTChoice name="Multiple choice" alignContent="0">
+                                        <OTChoice name="Multiple choice" alignContent="0" horizontal="false">
                                           <choices>
                                             <OTCompoundDoc name="yes">
                                               <bodyText>yes</bodyText>
@@ -8867,12 +8866,11 @@ end</script>
                                     <tr>
                                       <td valign="top" width="70%">
                                         Make a chart like the one on the right to record the results 
-                of 100 tosses. It will be easier if you group your counting by 
-                fives.
+                of 100 tosses. Mark down your counts in groups of five.
                                         <br />
                                         <br />
-                                        Obtain a printable globe toss chart by clicking 
-                on the
+                                        Obtain 
+                a printable globe toss chart by clicking on the
                                         <a href="http://udl.concord.org/artwork/cloud_34/toss_chart/globe_toss_chart.pdf">here</a>
                                         .
                                         <br />
@@ -9648,7 +9646,7 @@ end</script>
                             <OTUDLQuestion id="80661ad1-7de9-11dd-a164-1704e93cfa6f" name="Question" showConvertButton="true">
                               <prompt>
                                 <OTCompoundDoc>
-                                  <bodyText>Use your written answers and your snapshots to answer this question: How much water is on the earth?</bodyText>
+                                  <bodyText>Use your written answers and your snapshots to answer this question: What percentage of the earth's surface is water?</bodyText>
                                 </OTCompoundDoc>
                               </prompt>
                               <input>
