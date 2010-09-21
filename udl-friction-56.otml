@@ -1861,15 +1861,15 @@ Students investigate friction while:
                                   <br />
                                   "Oh, 
           we don't lose it," said his dad.
-                                  <b>"We just don't use it very 
-          efficiently here."</b>
+                                  "We just don't use it very 
+          efficiently here."
                                   <br />
                                   <br />
                                   "A lot of the energy in the 
           gasoline goes into heat," Albert's mother explained.
-                                  <b>"That's 
+                                  "That's 
           what happens when there's friction. Things slow down and their 
-          energy turns into heat."</b>
+          energy turns into heat."
                                   <br />
                                   <br />
                                   "I don't get it," said 
@@ -1897,12 +1897,16 @@ Students investigate friction while:
                                   </table>
                                   <br />
                                   <br />
+                                  “I think I understand,” Martin said. “It’s like when it’s really 
+          cold and you’ve 
+lost your gloves…”
+                                  <br />
                                   "You're always losing your gloves!" said his sister.
                                   <br />
                                   <br />
-                                  "No, 
-          it was just that one time. Anyway, when your hands get really cold 
-          like they did that time, you can rub them together to warm them up."
+                                  "No, it 
+          was just that one time. Anyway, when your hands get really cold like 
+          they did that time, you can rub them together to warm them up."
                                   <br />
                                   <br />
                                   "Very 
@@ -4727,7 +4731,7 @@ end</script>
                                     <OTUDLQuestion id="a7417bde-7ac7-11dd-b5e2-f5d4039a183c" name="Question" showConvertButton="true">
                                       <prompt>
                                         <OTCompoundDoc>
-                                          <bodyText>What was the maximum temperature of the penny (in deg C)? Use numbers, no letters.</bodyText>
+                                          <bodyText>What was the maximum temperature of the penny (in deg C)? Use numbers, no letters. Include tenths of a degree.</bodyText>
                                         </OTCompoundDoc>
                                       </prompt>
                                       <input>
@@ -5971,9 +5975,7 @@ end</script>
                                 <OTUDLCompoundDoc id="88b362fb-6256-11dd-818b-499ca14d14a5" name="%88b362fb-6256-11dd-818b-499ca14d14a5" showEditBar="true">
                                   <bodyText>
                                     When the temperature is steady, hit
-                                    <b>Stop</b>
-                                    and
-                                    <b>Clear.</b>
+                                    <b>Stop.</b>
                                   </bodyText>
                                 </OTUDLCompoundDoc>
                                 <OTUDLCompoundDoc name="%630265dc-8128-11de-b949-8ba0f06ac26e" showEditBar="true">
@@ -6489,7 +6491,7 @@ end</script>
                               <target>
                                 <OTDataCollector id="ff060154-fde3-11dd-97f8-535051c15dc4" name="Temperature" title="Temperature Sensor Graph" multipleGraphableEnabled="true" autoScaleEnabled="true" showControlBar="true" useDefaultToolBar="true">
                                   <source>
-                                    <OTDataGraphable name="penny 2" connectPoints="true" yColumn="1" drawMarks="false" color="255" xColumn="0" lineWidth="2.0" visible="true">
+                                    <OTDataGraphable name="penny 2" connectPoints="true" yColumn="1" drawMarks="false" color="255" xColumn="0" lineWidth="2.0" visible="true" showAllChannels="false">
                                       <dataProducer>
                                         <OTSensorDataProxy name="dataproducer">
                                           <request>
@@ -6504,8 +6506,8 @@ end</script>
                                       <dataStore>
                                         <OTDataStore dt="0.1" numberChannels="1">
                                           <channelDescriptions>
-                                            <OTDataChannelDescription name="dt" precision="2" numericData="true" />
-                                            <OTDataChannelDescription name="" unit="degC" precision="-1" numericData="true" />
+                                            <OTDataChannelDescription name="time" unit="s" precision="-2" numericData="true" />
+                                            <OTDataChannelDescription name="Temperature" unit="degC" precision="-1" numericData="true" />
                                           </channelDescriptions>
                                         </OTDataStore>
                                       </dataStore>
@@ -6522,7 +6524,7 @@ end</script>
                                     </OTDataAxis>
                                   </yDataAxis>
                                   <graphables>
-                                    <OTDataGraphable name="penny 1" connectPoints="true" yColumn="1" drawMarks="false" color="16711731" xColumn="0" lineWidth="2.0" visible="true" locked="true">
+                                    <OTDataGraphable name="penny 1" connectPoints="true" yColumn="1" drawMarks="false" color="16711731" xColumn="0" lineWidth="2.0" visible="true" locked="true" showAllChannels="false">
                                       <dataProducer>
                                         <object refid="${dp_dc_id_1}" />
                                       </dataProducer>
@@ -6677,8 +6679,6 @@ end</script>
                                   <object refid="091a54ec-e3d2-11dc-bd8e-e5ab906ad868" />
                                   <br />
                                   <br />
-                                  <object refid="6c136611-e3d2-11dc-bd8e-e5ab906ad868" />
-                                  <br />
                                   <br />
                                   Congratulations! You have completed this activity.
                                 </div>
@@ -6698,28 +6698,18 @@ end</script>
                                     <OTCompoundDoc name="stopping a slow-moving car">
                                       <bodyText>stopping a slow-moving car</bodyText>
                                     </OTCompoundDoc>
-                                    <OTCompoundDoc id="091a54ec-e3d2-11dc-bd8e-e5ab906ad868/input/choices[1]" name="stopping a fast-moving car">
-                                      <bodyText>stopping a fast-moving car</bodyText>
+                                    <OTCompoundDoc id="f814a8ee-c590-11df-9fa0-29dd5da74616" name="stopping a slow-moving car">
+                                      <bodyText>stopping a slow-moving car</bodyText>
                                     </OTCompoundDoc>
                                   </choices>
+                                  <currentChoices>
+                                    <object refid="f814a8ee-c590-11df-9fa0-29dd5da74616" />
+                                  </currentChoices>
                                 </OTChoice>
                               </input>
                               <correctAnswer>
-                                <object refid="091a54ec-e3d2-11dc-bd8e-e5ab906ad868/input/choices[1]" />
-                              </correctAnswer>
-                            </OTUDLQuestion>
-                            <OTUDLQuestion id="6c136611-e3d2-11dc-bd8e-e5ab906ad868" name="Question" showConvertButton="true">
-                              <prompt>
-                                <OTUDLCompoundDoc>
+                                <OTCompoundDoc name="stopping a fast-moving car">
                                   <bodyText>The fast-moving car has more energy, so stopping it will create more heat energy.</bodyText>
-                                </OTUDLCompoundDoc>
-                              </prompt>
-                              <input>
-                                <OTText />
-                              </input>
-                              <correctAnswer>
-                                <OTCompoundDoc>
-                                  <bodyText>Insert answer here</bodyText>
                                 </OTCompoundDoc>
                               </correctAnswer>
                             </OTUDLQuestion>
@@ -7477,27 +7467,9 @@ end</script>
     temperature bar appears to the right of the model.</bodyText>
                                 </OTUDLCompoundDoc>
                                 <OTUDLCompoundDoc id="7e50c204-63f2-11dd-8b64-2ba3b656a14e" name="%7e50c204-63f2-11dd-8b64-2ba3b656a14e" showEditBar="true">
-                                  <documentRefs>
-                                    <OTUDLQuestion id="423ae54d-e3d4-11dc-bd8e-e5ab906ad868" name="Question" showConvertButton="true">
-                                      <prompt>
-                                        <OTUDLCompoundDoc>
-                                          <bodyText>
-                                            Run the model. Observe and describe what happens to the atoms.
-                                            <br />
-                                            <br />
-                                            Look very carefully at the ones where the two surfaces meet.
-                                          </bodyText>
-                                        </OTUDLCompoundDoc>
-                                      </prompt>
-                                      <input>
-                                        <OTText />
-                                      </input>
-                                    </OTUDLQuestion>
-                                  </documentRefs>
                                   <bodyText>
-                                    <object refid="423ae54d-e3d4-11dc-bd8e-e5ab906ad868" />
-                                    <br />
-                                    <br />
+                                    Run the model. Observe and describe what happens to the atoms.
+Look very carefully at the ones where the two surfaces meet.
                                     <br />
                                   </bodyText>
                                 </OTUDLCompoundDoc>
@@ -7532,7 +7504,7 @@ end</script>
                                     <OTUDLQuestion id="20be3604-88a9-11dd-bd08-bfa936a03652" name="Question" showConvertButton="true">
                                       <prompt>
                                         <OTCompoundDoc>
-                                          <bodyText>I think it's</bodyText>
+                                          <bodyText>I think it's:</bodyText>
                                         </OTCompoundDoc>
                                       </prompt>
                                       <input>
@@ -11229,8 +11201,8 @@ end</script>
                                   </bodyText>
                                 </OTUDLCompoundDoc>
                                 <OTUDLCompoundDoc id="a6816abf-6485-11dd-9201-3771bc729610" name="%a6816abf-6485-11dd-9201-3771bc729610" showEditBar="true">
-                                  <bodyText>Set the force to zero, using the zero force button. The graph should go to 
-    force = 0 when you do this.</bodyText>
+                                  <bodyText>Start data collection. Set the force to zero, using the zero force button. 
+    The graph should go to force = 0 when you do this.</bodyText>
                                 </OTUDLCompoundDoc>
                                 <OTUDLCompoundDoc id="c5272e60-6485-11dd-9201-3771bc729610" name="%c5272e60-6485-11dd-9201-3771bc729610" showEditBar="true">
                                   <bodyText>
@@ -14170,15 +14142,15 @@ sandpaper: 35.3</bodyText>
                                     <tr>
                                       <td width="60%">
                                         Now it's time to review and summarize what you have learned 
-                about plants. To help, you can show all of your snapshots and 
-                some of your written answers from the activities. They are all 
-                in your lab book.
+                about friction. To help, you can show all of your snapshots 
+                and some of your written answers from the activities. They are 
+                all in your lab book.
                                         <br />
                                         <br />
-                                        Review the questions on the following 
-                pages. There is a separate page for each activity that you 
-                worked on. Be prepared to share your answers with the rest of 
-                the class.
+                                        Review the questions on the 
+                following pages. There is a separate page for each activity 
+                that you worked on. Be prepared to share your answers with the 
+                rest of the class.
                                       </td>
                                       <td style="padding-right: 20px; padding-left: 20px" width="40%">
                                         <img src="http://udl.concord.org/artwork/friction_56/slipping_on_ice/fr_56_slipping_on_ice.png" border="0" />
