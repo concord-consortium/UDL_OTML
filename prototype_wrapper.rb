@@ -23,16 +23,16 @@ def clean_ids(_node)
 end
 
 ##
-##
+## create a new protoTypeGraphables stanza
+## (used as prototype when 'new' is clicked in multigraph)
 ##
 def prototype(producer)
   builder = Builder::XmlMarkup.new(:indent => 2)
   builder.prototypeGraphables do |xml|
     xml << producer.to_s
   end
-  
   results = Nokogiri::XML::DocumentFragment.parse(builder)
-  puts results
+  
   # not sure why <strip/> tags are being generated, but remove them.
   results.xpath(".//strip").each { |n| n.remove } 
   # ensure unique local_ids in datastores
@@ -40,31 +40,31 @@ def prototype(producer)
   return results
 end
 
-##
+###################################
 ## Main entry
-## 
+################################### 
 outdir = "out"
 %x| rm -rf #{outdir}|
 %x| mkdir #{outdir} |
 
 Dir.glob('*.otml').each do|f|
   xmlfile = Nokogiri::XML(File.open(f),nil,nil,nil)
-  File.open("#{outdir}/#{f}", 'w') {|outfile| outfile.write(xmlfile) }
-  puts f
+  File.open("#{outdir}/old_#{f}", 'w') {|outfile| outfile.write(xmlfile) }
+  puts "reading #{f}, (saving as #{outdir}/old_#{f} and #{outdir}/#{f}"
   dataCollectors = xmlfile.xpath('//OTDataCollector[@multipleGraphableEnabled="true"]')
   # dont modify anyone who already has a prototype stanza.
   dataCollectors = dataCollectors.reject do |dc|
     results = dc.xpath('.//prototypeGraphables')
     results.size > 0
   end
-  puts "== #{outdir}/#{f}found #{dataCollectors.size} viable datacollectors" if dataCollectors.size > 0
+  puts "== #{outdir}/#{f} found #{dataCollectors.size} datacollectors needing update" if dataCollectors.size > 0
   dataCollectors.each do |dc|
     graphables = dc.xpath('.//source/OTDataGraphable')
-    puts "found #{graphables.size} graphables"
+    puts "     .. found #{graphables.size} graphables"
     graphable = graphables.last.dup
     graphable.xpath(".//OTDataStore").each {|g| g.remove}
     dc.add_child(prototype(graphable))
   end
-  File.open("#{outdir}/new_#{f}", 'w') {|outfile| outfile.write(xmlfile) }
+  File.open("#{outdir}/#{f}", 'w') {|outfile| outfile.write(xmlfile) }
 end
 
