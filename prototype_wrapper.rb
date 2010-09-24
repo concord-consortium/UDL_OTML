@@ -62,7 +62,7 @@ Dir.glob('*.otml').each do|f|
     graphables = dc.xpath('.//source/OTDataGraphable')
     puts "     .. found #{graphables.size} graphables"
     graphable = graphables.last.dup
-    graphable.xpath(".//OTDataStore").each {|g| g.remove}
+    graphable.xpath(".//dataStore").each {|g| g.remove}
     dc.add_child(prototype(graphable))
   end
   File.open("#{outdir}/#{f}", 'w') {|outfile| outfile.write(xmlfile) }
