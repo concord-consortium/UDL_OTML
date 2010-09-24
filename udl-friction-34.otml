@@ -150,7 +150,7 @@
         </OTOverlay>
       </overlays>
       <root>
-        <OTUDLCurriculumUnit version="0" name="UDL Beginning Friction" usePath="false">
+        <OTUDLCurriculumUnit hasCompletedPretest="true" version="0" name="UDL Beginning Friction" usePath="false">
           <activity>
             <OTCardContainer local_id="section-card-container" loadViewOnlyOnDemand="true">
               <cards>

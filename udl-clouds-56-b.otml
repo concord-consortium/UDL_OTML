@@ -138,7 +138,7 @@
         </OTOverlay>
       </overlays>
       <root>
-        <OTUDLCurriculumUnit version="0" name="UDL Intermediate Clouds" usePath="false">
+        <OTUDLCurriculumUnit hasCompletedPretest="true" version="0" name="UDL Intermediate Clouds" usePath="false">
           <activity>
             <OTCardContainer local_id="section-card-container" loadViewOnlyOnDemand="true">
               <cards>
