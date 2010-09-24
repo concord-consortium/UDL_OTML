@@ -1,0 +1,24 @@
+
+##  Authored OTML content for UDL project (September 2010 release).
+
+
+This is repo contains authored curriculum for the UDL project.
+
+This content is a fork of January content found in subversion here:
+
+* [http://svn.concord.org/svn/projects/tags/common/java/otrunk/otrunk-examples/UDL-201001.0](http://svn.concord.org/svn/projects/tags/common/java/otrunk/otrunk-examples/UDL-201001.0)
+
+It was merged with new authored content in the trunk:
+
+* [http:////svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL](http:////svn.concord.org/svn/projects/trunk/common/java/otrunk/otrunk-examples/UDL)
+
+And includes a number of content changes specified by various PT stories:
+
+* [http://www.pivotaltracker.com/story/show/5283378](http://www.pivotaltracker.com/story/show/5283378)
+* [http://www.pivotaltracker.com/story/show/5276936](http://www.pivotaltracker.com/story/show/5276936)
+* [http://www.pivotaltracker.com/story/show/5276807](http://www.pivotaltracker.com/story/show/5276807)
+
+
+For more information on Universal Design in Science Education see [The UDL website](http://udl.concord.org/)
+
+For more information about OTML see the [otrunk faq](http://confluence.concord.org/display/CSP/OTrunk+HowTo)
