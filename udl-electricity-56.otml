@@ -271,7 +271,23 @@
                   </dataStore>
                 </OTDataGraphable>
               </graphables>
-            </OTDataCollector>
+            <prototypeGraphables>
+<OTDataGraphable name="foil" showAllChannels="false" connectPoints="true" color="3407667" drawMarks="false" yColumn="1" lineWidth="2.0" visible="true" xColumn="0">
+                  <dataProducer>
+                    <OTSensorDataProxy name="dataproducer" id="C4AA193D-3719-4065-8BCD-D4871F2A6022">
+                      <request>
+                        <OTExperimentRequest period="0.1">
+                          <sensorRequests>
+                            <OTSensorRequest stepSize="0.1" port="0" requiredMax="40.0" displayPrecision="-1" unit="degC" type="0" requiredMin="0.0"/>
+                          </sensorRequests>
+                        </OTExperimentRequest>
+                      </request>
+                    </OTSensorDataProxy>
+                  </dataProducer>
+                  
+                </OTDataGraphable></prototypeGraphables>
+
+</OTDataCollector>
             <OTDataCollector name="Voltage2" title="Voltage Sensor Graph" autoScaleEnabled="true">
               <source>
                 <OTDataGraphable name="Sensor" connectPoints="true" yColumn="1" drawMarks="false" color="255" xColumn="0" lineWidth="2.0">
@@ -9158,7 +9174,23 @@ end</script>
                                   </dataStore>
                                 </OTDataGraphable>
                               </graphables>
-                            </OTDataCollector>
+                            <prototypeGraphables>
+<OTDataGraphable name="two" showAllChannels="false" connectPoints="true" color="16711731" drawMarks="false" yColumn="1" lineWidth="2.0" visible="true" xColumn="0">
+                                  <dataProducer>
+                                    <OTSensorDataProxy name="dataproducer">
+                                      <request>
+                                        <OTExperimentRequest period="0.1">
+                                          <sensorRequests>
+                                            <OTSensorRequest stepSize="0.1" port="0" requiredMax="40.0" displayPrecision="-1" unit="degC" type="0" requiredMin="0.0"/>
+                                          </sensorRequests>
+                                        </OTExperimentRequest>
+                                      </request>
+                                    </OTSensorDataProxy>
+                                  </dataProducer>
+                                  
+                                </OTDataGraphable></prototypeGraphables>
+
+</OTDataCollector>
                           </documentRefs>
                         </OTUDLCompoundDoc>
                         <OTUDLCompoundDoc name="%415e6af0-8d7c-11dc-92de-d3015639f7a6" showDefinitions="true">
@@ -10480,7 +10512,23 @@ But they will still read correctly when they are connected.
                                   </dataStore>
                                 </OTDataGraphable>
                               </graphables>
-                            </OTDataCollector>
+                            <prototypeGraphables>
+<OTDataGraphable name="Sensor" showAllChannels="false" connectPoints="true" color="255" drawMarks="false" yColumn="1" lineWidth="2.0" visible="true" xColumn="0">
+                                  <dataProducer>
+                                    <OTSensorDataProxy name="dataproducer">
+                                      <request>
+                                        <OTExperimentRequest period="0.1">
+                                          <sensorRequests>
+                                            <OTSensorRequest stepSize="0.1" port="0" requiredMax="10.0" displayPrecision="-2" unit="V" type="4" requiredMin="-10.0"/>
+                                          </sensorRequests>
+                                        </OTExperimentRequest>
+                                      </request>
+                                    </OTSensorDataProxy>
+                                  </dataProducer>
+                                  
+                                </OTDataGraphable></prototypeGraphables>
+
+</OTDataCollector>
                             <OTLabbookButton id="a715e3f5-fc38-11dc-a738-1f42f753985b" name="Snapshot button">
                               <target>
                                 <object refid="d03acf62-da61-11dc-ba99-7ffb5c0c743c"/>

@@ -169,7 +169,23 @@
                   </dataStore>
                 </OTDataGraphable>
               </graphables>
-            </OTDataCollector>
+            <prototypeGraphables>
+<OTDataGraphable name="test-volts" showAllChannels="false" connectPoints="true" color="255" drawMarks="false" yColumn="1" lineWidth="2.0" visible="true" xColumn="0">
+                  <dataProducer>
+                    <OTSensorDataProxy name="dataproducer" id="36D1F58C-FFF8-4B4B-8329-2E73CF13AC2E">
+                      <request>
+                        <OTExperimentRequest period="0.1">
+                          <sensorRequests>
+                            <OTSensorRequest stepSize="0.1" port="0" requiredMax="10.0" displayPrecision="-2" unit="V" type="4" requiredMin="-10.0"/>
+                          </sensorRequests>
+                        </OTExperimentRequest>
+                      </request>
+                    </OTSensorDataProxy>
+                  </dataProducer>
+                  
+                </OTDataGraphable></prototypeGraphables>
+
+</OTDataCollector>
             <OTDataCollector id="99b1b3a0-cdca-11dc-8ae1-ef1e138f3b5b" name="VoltagePred" title="Voltage Sensor Graph" multipleGraphableEnabled="false" autoScaleEnabled="true" showLabelCoordinates="true" labelDecimalPlaces="2" showControlBar="true" useDefaultToolBar="true">
               <source>
                 <OTDataGraphable name="Prediction" connectPoints="true" yColumn="1" drawMarks="false" color="16711731" xColumn="0" lineWidth="2.0" controllable="true" visible="true" showAllChannels="false">
@@ -1184,7 +1200,23 @@
                                   </dataStore>
                                 </OTDataGraphable>
                               </graphables>
-                            </OTDataCollector>
+                            <prototypeGraphables>
+<OTDataGraphable name="First battery" showAllChannels="false" connectPoints="true" color="255" drawMarks="false" yColumn="1" lineWidth="2.0" visible="true" xColumn="0">
+                                  <dataProducer>
+                                    <OTSensorDataProxy name="dataproducer">
+                                      <request>
+                                        <OTExperimentRequest period="0.1" id="D52DC01B-4EC9-4DA4-A35D-D9C5BFD957D5">
+                                          <sensorRequests>
+                                            <OTSensorRequest stepSize="0.1" port="0" requiredMax="10.0" displayPrecision="-2" unit="V" type="4" requiredMin="-10.0"/>
+                                          </sensorRequests>
+                                        </OTExperimentRequest>
+                                      </request>
+                                    </OTSensorDataProxy>
+                                  </dataProducer>
+                                  
+                                </OTDataGraphable></prototypeGraphables>
+
+</OTDataCollector>
                             <OTLabbookButton id="c410dc27-cadb-11dc-9f17-f581dffccb2a" name="Snapshot button">
                               <target>
                                 <object refid="0fcf57c5-cada-11dc-9f17-f581dffccb2a"/>
@@ -8445,7 +8477,23 @@ end</script>
                                   </dataStore>
                                 </OTDataGraphable>
                               </graphables>
-                            </OTDataCollector>
+                            <prototypeGraphables>
+<OTDataGraphable name="Sensor" showAllChannels="false" connectPoints="true" color="255" drawMarks="false" yColumn="1" lineWidth="2.0" visible="true" xColumn="0">
+                                  <dataProducer>
+                                    <OTSensorDataProxy name="dataproducer">
+                                      <request>
+                                        <OTExperimentRequest period="0.1">
+                                          <sensorRequests>
+                                            <OTSensorRequest stepSize="0.1" port="0" requiredMax="10.0" displayPrecision="-2" unit="V" type="4" requiredMin="-10.0"/>
+                                          </sensorRequests>
+                                        </OTExperimentRequest>
+                                      </request>
+                                    </OTSensorDataProxy>
+                                  </dataProducer>
+                                  
+                                </OTDataGraphable></prototypeGraphables>
+
+</OTDataCollector>
                             <OTLabbookButton id="536a931f-7389-11dd-9e8a-efc9ed032a7a" name="Snapshot button">
                               <target>
                                 <object refid="2f95c024-e0c3-11dc-8b8f-579135bdfd8c"/>
@@ -8599,7 +8647,23 @@ end</script>
                                   </dataStore>
                                 </OTDataGraphable>
                               </graphables>
-                            </OTDataCollector>
+                            <prototypeGraphables>
+<OTDataGraphable name="two" showAllChannels="false" connectPoints="true" color="65280" drawMarks="false" yColumn="1" lineWidth="2.0" visible="true" xColumn="0">
+                                  <dataProducer>
+                                    <OTSensorDataProxy name="dataproducer">
+                                      <request>
+                                        <OTExperimentRequest period="0.1">
+                                          <sensorRequests>
+                                            <OTSensorRequest stepSize="0.1" port="0" requiredMax="10.0" displayPrecision="-2" unit="V" type="4" requiredMin="-10.0"/>
+                                          </sensorRequests>
+                                        </OTExperimentRequest>
+                                      </request>
+                                    </OTSensorDataProxy>
+                                  </dataProducer>
+                                  
+                                </OTDataGraphable></prototypeGraphables>
+
+</OTDataCollector>
                             <OTLabbookButton id="6feaded2-7389-11dd-9e8a-efc9ed032a7a" name="Snapshot button">
                               <target>
                                 <object refid="4d015ea5-cdcc-11dc-8ae1-ef1e138f3b5b"/>

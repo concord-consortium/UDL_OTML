@@ -9137,7 +9137,25 @@ end</script>
                                       </dataStore>
                                     </OTDataGraphable>
                                   </graphables>
-                                </OTDataCollector>
+                                <prototypeGraphables>
+<OTDataGraphable name="Live leaf" showAllChannels="false" connectPoints="true" color="16711680" drawMarks="false" yColumn="1" lineWidth="2.0" visible="true" xColumn="0">
+                                      <dataProducer>
+                                        <OTSensorDataProxy name="dataproducer">
+                                          <request>
+                                            <OTExperimentRequest period="0.1">
+                                              <sensorRequests>
+                                                <OTSensorRequest stepSize="0.1" port="0" requiredMax="90.0" displayPrecision="-1" unit="percentage" type="7" requiredMin="10.0">
+                                                  <paramMap/>
+                                                </OTSensorRequest>
+                                              </sensorRequests>
+                                            </OTExperimentRequest>
+                                          </request>
+                                        </OTSensorDataProxy>
+                                      </dataProducer>
+                                      
+                                    </OTDataGraphable></prototypeGraphables>
+
+</OTDataCollector>
                               </target>
                             </OTLabbookButton>
                             <object refid="d7cfc45c-ae70-11dc-99f9-f77b3759dd95"/>
@@ -9403,7 +9421,23 @@ end</script>
                                   <customGridLabels/>
                                 </OTDataAxis>
                               </yDataAxis>
-                            </OTDataCollector>
+                            <prototypeGraphables>
+<OTDataGraphable name="Sensor" connectPoints="true" color="255" drawMarks="false" yColumn="1" lineWidth="2.0" visible="true" xColumn="0">
+                                  <dataProducer>
+                                    <OTSensorDataProxy name="dataproducer">
+                                      <request>
+                                        <OTExperimentRequest period="0.1">
+                                          <sensorRequests>
+                                            <OTSensorRequest stepSize="0.1" port="0" requiredMax="90.0" displayPrecision="-1" unit="percentage" type="7" requiredMin="10.0"/>
+                                          </sensorRequests>
+                                        </OTExperimentRequest>
+                                      </request>
+                                    </OTSensorDataProxy>
+                                  </dataProducer>
+                                  
+                                </OTDataGraphable></prototypeGraphables>
+
+</OTDataCollector>
                           </documentRefs>
                         </OTUDLCompoundDoc>
                       </cards>

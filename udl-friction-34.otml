@@ -12067,7 +12067,26 @@ end</script>
                                   </dataStore>
                                 </OTDataGraphable>
                               </graphables>
-                            </OTDataCollector>
+                            <prototypeGraphables>
+<OTDataGraphable name="plain" showAllChannels="false" connectPoints="true" color="255" drawMarks="false" yColumn="1" lineWidth="2.0" visible="true" xColumn="0">
+                                  <dataProducer>
+                                    <OTSensorDataProxy name="dataproducer">
+                                      <request>
+                                        <OTExperimentRequest period="0.1" id="1AD87F35-593E-4D7F-AF92-66ECE6AF3E0E">
+                                          <sensorRequests>
+                                            <OTSensorRequest stepSize="0.1" port="0" requiredMax="4.0" displayPrecision="-2" unit="N" type="5" requiredMin="-4.0"/>
+                                          </sensorRequests>
+                                        </OTExperimentRequest>
+                                      </request>
+                                      <zeroSensor>
+                                        <OTZeroSensor sensorIndex="0" id="E2170361-6260-43C2-84D4-8572F3D3FAC5"/>
+                                      </zeroSensor>
+                                    </OTSensorDataProxy>
+                                  </dataProducer>
+                                  
+                                </OTDataGraphable></prototypeGraphables>
+
+</OTDataCollector>
                             <OTButton local_id="zero-force-button-9" text="Zero Force">
                               <action>
                                 <object refid="b549d10f-6d39-11dd-94c5-7d1ceeb17079"/>

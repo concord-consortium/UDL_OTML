@@ -171,7 +171,26 @@
               <yDataAxis>
                 <OTDataAxis max="4.0" units="N" min="-4.0" label="Force"/>
               </yDataAxis>
-            </OTDataCollector>
+            <prototypeGraphables>
+<OTDataGraphable name="Three bottles" connectPoints="true" color="52428" drawMarks="false" yColumn="1" lineWidth="2.0" xColumn="0">
+                  <dataProducer>
+                    <OTSensorDataProxy name="dataproducer">
+                      <request>
+                        <OTExperimentRequest period="0.1">
+                          <sensorRequests>
+                            <OTSensorRequest stepSize="0.01" port="0" requiredMax="4.0" displayPrecision="-2" unit="N" type="5" requiredMin="-4.0"/>
+                          </sensorRequests>
+                        </OTExperimentRequest>
+                      </request>
+                      <zeroSensor>
+                        <OTZeroSensor sensorIndex="0" local_id="dyn_zeroSensor_1"/>
+                      </zeroSensor>
+                    </OTSensorDataProxy>
+                  </dataProducer>
+                  
+                </OTDataGraphable></prototypeGraphables>
+
+</OTDataCollector>
             <OTDataCollector id="71ac9ad8-8948-11dc-8cc4-df44ebcd54b4" name="Force - Two bottles" title="Force Sensor Graph" autoScaleEnabled="true" multipleGraphableEnabled="true">
               <source>
                 <OTDataGraphable name="Two bottles" connectPoints="true" yColumn="1" drawMarks="false" color="65280" xColumn="0" lineWidth="2.0">
@@ -205,7 +224,26 @@
               <yDataAxis>
                 <OTDataAxis max="5.0" units="N" min="-0.0" label="Force"/>
               </yDataAxis>
-            </OTDataCollector>
+            <prototypeGraphables>
+<OTDataGraphable name="Two bottles" connectPoints="true" color="65280" drawMarks="false" yColumn="1" lineWidth="2.0" xColumn="0">
+                  <dataProducer>
+                    <OTSensorDataProxy name="dataproducer">
+                      <request>
+                        <OTExperimentRequest period="0.1">
+                          <sensorRequests>
+                            <OTSensorRequest stepSize="0.01" port="0" requiredMax="4.0" displayPrecision="-2" unit="N" type="5" requiredMin="-4.0"/>
+                          </sensorRequests>
+                        </OTExperimentRequest>
+                      </request>
+                      <zeroSensor>
+                        <OTZeroSensor sensorIndex="0" local_id="dyn_zeroSensor_2"/>
+                      </zeroSensor>
+                    </OTSensorDataProxy>
+                  </dataProducer>
+                  
+                </OTDataGraphable></prototypeGraphables>
+
+</OTDataCollector>
             <OTDataCollector id="fe1bcc64-8947-11dc-8cc4-df44ebcd54b4" name="Force with one bottle" title="Force Sensor Graph" multipleGraphableEnabled="true" autoScaleEnabled="true">
               <source>
                 <OTDataGraphable name="One bottle" connectPoints="true" yColumn="1" drawMarks="false" color="3355647" xColumn="0" lineWidth="2.0">
@@ -249,7 +287,26 @@
                   </dataStore>
                 </OTDataGraphable>
               </graphables>
-            </OTDataCollector>
+            <prototypeGraphables>
+<OTDataGraphable name="One bottle" connectPoints="true" color="3355647" drawMarks="false" yColumn="1" lineWidth="2.0" xColumn="0">
+                  <dataProducer>
+                    <OTSensorDataProxy name="dataproducer" id="5B9BF4C3-397D-44BA-95B7-2F1756889485">
+                      <request>
+                        <OTExperimentRequest period="0.1">
+                          <sensorRequests>
+                            <OTSensorRequest stepSize="0.01" port="0" requiredMax="4.0" displayPrecision="-2" unit="N" type="5" requiredMin="-4.0"/>
+                          </sensorRequests>
+                        </OTExperimentRequest>
+                      </request>
+                      <zeroSensor>
+                        <OTZeroSensor sensorIndex="0" local_id="dyn_zeroSensor_3"/>
+                      </zeroSensor>
+                    </OTSensorDataProxy>
+                  </dataProducer>
+                  
+                </OTDataGraphable></prototypeGraphables>
+
+</OTDataCollector>
             <OTButton local_id="zero-force-p-6" text="Zero Force" clicked="false">
               <action>
                 <object refid="3a57072e-4245-4533-a52b-4c34130c8597"/>
@@ -348,7 +405,26 @@
                   </dataStore>
                 </OTDataGraphable>
               </graphables>
-            </OTDataCollector>
+            <prototypeGraphables>
+<OTDataGraphable name="two bottles" showAllChannels="false" connectPoints="true" color="255" drawMarks="false" yColumn="1" lineWidth="2.0" visible="true" xColumn="0">
+                  <dataProducer>
+                    <OTSensorDataProxy name="dataproducer">
+                      <request>
+                        <OTExperimentRequest period="0.1">
+                          <sensorRequests>
+                            <OTSensorRequest stepSize="0.01" port="0" requiredMax="4.0" displayPrecision="-2" unit="N" type="5" requiredMin="-4.0"/>
+                          </sensorRequests>
+                        </OTExperimentRequest>
+                      </request>
+                      <zeroSensor>
+                        <OTZeroSensor sensorIndex="0" id="C16201B2-1646-4264-9C15-ED94CBED2294"/>
+                      </zeroSensor>
+                    </OTSensorDataProxy>
+                  </dataProducer>
+                  
+                </OTDataGraphable></prototypeGraphables>
+
+</OTDataCollector>
             <OTDataCollector id="f7971278-21d0-11dd-883b-015dfae2d4ec" name="Force - one bottle" title="Force Sensor Graph" autoScaleEnabled="true" multipleGraphableEnabled="true" useDefaultToolBar="false" displayButtons="0,1,2,3,4,6," showLabelCoordinates="true" labelDecimalPlaces="2" showControlBar="true">
               <source>
                 <OTDataGraphable name="one bottle" connectPoints="true" yColumn="1" drawMarks="false" color="13107" xColumn="0" lineWidth="2.0" visible="true" showAllChannels="false">
@@ -386,7 +462,26 @@
                   <customGridLabels/>
                 </OTDataAxis>
               </yDataAxis>
-            </OTDataCollector>
+            <prototypeGraphables>
+<OTDataGraphable name="one bottle" showAllChannels="false" connectPoints="true" color="13107" drawMarks="false" yColumn="1" lineWidth="2.0" visible="true" xColumn="0">
+                  <dataProducer>
+                    <OTSensorDataProxy name="dataproducer" id="08FF995B-9B85-4C8F-BEBF-10A5DACB766E">
+                      <request>
+                        <OTExperimentRequest period="0.1">
+                          <sensorRequests>
+                            <OTSensorRequest stepSize="0.01" port="0" requiredMax="4.0" displayPrecision="-2" unit="N" type="5" requiredMin="-4.0"/>
+                          </sensorRequests>
+                        </OTExperimentRequest>
+                      </request>
+                      <zeroSensor>
+                        <OTZeroSensor sensorIndex="0" id="3E09C623-11D3-42C0-834D-BF2BF999D571"/>
+                      </zeroSensor>
+                    </OTSensorDataProxy>
+                  </dataProducer>
+                  
+                </OTDataGraphable></prototypeGraphables>
+
+</OTDataCollector>
           </sharedObjects>
         </OTSharingBundle>
         <OTInterfaceManager>
@@ -6533,7 +6628,23 @@ end</script>
                                       </dataStore>
                                     </OTDataGraphable>
                                   </graphables>
-                                </OTDataCollector>
+                                <prototypeGraphables>
+<OTDataGraphable name="penny 2" showAllChannels="false" connectPoints="true" color="255" drawMarks="false" yColumn="1" lineWidth="2.0" visible="true" xColumn="0">
+                                      <dataProducer>
+                                        <OTSensorDataProxy name="dataproducer">
+                                          <request>
+                                            <OTExperimentRequest period="0.1">
+                                              <sensorRequests>
+                                                <OTSensorRequest stepSize="0.1" port="0" requiredMax="40.0" displayPrecision="-1" unit="degC" type="0" requiredMin="0.0"/>
+                                              </sensorRequests>
+                                            </OTExperimentRequest>
+                                          </request>
+                                        </OTSensorDataProxy>
+                                      </dataProducer>
+                                      
+                                    </OTDataGraphable></prototypeGraphables>
+
+</OTDataCollector>
                               </target>
                             </OTLabbookButton>
                             <object refid="ff060154-fde3-11dd-97f8-535051c15dc4"/>
@@ -11418,7 +11529,26 @@ end</script>
                                   </dataStore>
                                 </OTDataGraphable>
                               </graphables>
-                            </OTDataCollector>
+                            <prototypeGraphables>
+<OTDataGraphable name="Sensor" showAllChannels="false" connectPoints="true" color="255" drawMarks="false" yColumn="1" lineWidth="2.0" visible="true" xColumn="0">
+                                  <dataProducer>
+                                    <OTSensorDataProxy name="dataproducer">
+                                      <request>
+                                        <OTExperimentRequest period="0.1">
+                                          <sensorRequests>
+                                            <OTSensorRequest stepSize="0.01" port="0" requiredMax="4.0" displayPrecision="-2" unit="N" type="5" requiredMin="-4.0"/>
+                                          </sensorRequests>
+                                        </OTExperimentRequest>
+                                      </request>
+                                      <zeroSensor>
+                                        <OTZeroSensor sensorIndex="0"/>
+                                      </zeroSensor>
+                                    </OTSensorDataProxy>
+                                  </dataProducer>
+                                  
+                                </OTDataGraphable></prototypeGraphables>
+
+</OTDataCollector>
                             <OTLabbookButton id="ffa6f945-737a-11dd-a1ba-8f011e740945" name="Snapshot button">
                               <target>
                                 <object refid="582da299-21d1-11dd-883b-015dfae2d4ec"/>
