@@ -190,7 +190,22 @@
                   </dataStore>
                 </OTDataGraphable>
               </graphables>
-            </OTDataCollector>
+            <prototypeGraphables>
+  <OTDataGraphable name="New" connectPoints="true" color="0x0000ff" drawMarks="false" yColumn="1" xColumn="0">
+<dataProducer>
+                    <OTSensorDataProxy name="dataproducer">
+                      <request>
+                        <OTExperimentRequest period="0.1" id="F204F30D-0FDE-48C9-ABBA-149E06B519BF">
+                          <sensorRequests>
+                            <OTSensorRequest stepSize="0.1" port="0" requiredMax="40.0" displayPrecision="-1" unit="degC" type="0" requiredMin="0.0"/>
+                          </sensorRequests>
+                        </OTExperimentRequest>
+                      </request>
+                    </OTSensorDataProxy>
+                  </dataProducer>  </OTDataGraphable>
+</prototypeGraphables>
+
+</OTDataCollector>
             <OTSmartGraphTool id="b82d0deb-72aa-11dd-8930-05125fe8f057" name="Temperature_smart">
               <dataCollector>
                 <object refid="1b4395d9-6fc4-11dd-90e9-290d96238731"/>
