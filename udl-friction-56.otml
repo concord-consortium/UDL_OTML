@@ -653,7 +653,7 @@
                             <OTUDLQuestion id="e0d376de-fba6-11dc-8b26-87d692f0bb5d" name="Question" showConvertButton="true">
                               <prompt>
                                 <OTUDLCompoundDoc>
-                                  <bodyText>1. You see a hockey puck sliding down ice. What makes it slow down?</bodyText>
+                                  <bodyText>1. You see a hockey puck sliding on ice. What makes it slow down?</bodyText>
                                 </OTUDLCompoundDoc>
                               </prompt>
                               <input>
