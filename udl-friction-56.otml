@@ -14775,7 +14775,7 @@ sandpaper: 35.3</bodyText>
                             <OTUDLQuestion id="4dfdb4e7-812c-11de-99e5-97a703c05153" name="Question" showConvertButton="true">
                               <prompt>
                                 <OTCompoundDoc>
-                                  <bodyText>1. You see a hockey puck sliding down ice. What makes it slow down?</bodyText>
+                                  <bodyText>1. You see a hockey puck sliding on ice. What makes it slow down?</bodyText>
                                 </OTCompoundDoc>
                               </prompt>
                               <input>
