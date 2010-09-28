@@ -15192,13 +15192,7 @@ It's not true that friction is never useful. Without friction, you couldn't slow
                                   <table width="100%">
                                     <tr>
                                       <td>
-                                        Press the
-                                        <b>Submit</b>
-                                        button when you are done.
-                                      </td>
-                                      <td>
-                                        <object refid="${post-test-submit-button}"/>
-                                        <object refid="${post-test-submit-script}"/>
+                                        Congratulations! You have completed this section.
                                       </td>
                                     </tr>
                                   </table>

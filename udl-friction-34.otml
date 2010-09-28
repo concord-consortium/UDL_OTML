@@ -658,11 +658,7 @@ D) Less precise answers are good too, such as "measure how much force it takes t
                                   <br/>
                                   <br/>
                                   <br/>
-                                  Press the
-                                  <b>Submit</b>
-                                  button when you are done.
-                                  <object refid="${pretest-submit-button}"/>
-                                  <object refid="${pretest-button-script}"/>
+                                   Congratulations! You have finished this section.
                                 </div>
                               </div>
                             </div>

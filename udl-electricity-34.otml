@@ -763,13 +763,7 @@
                                   <table>
                                     <tr>
                                       <td>
-                                        Press the
-                                        <b>Submit</b>
-                                        button when you are done.
-                                      </td>
-                                      <td>
-                                        <object refid="${pretest-submit-button}"/>
-                                        <object refid="${pretest-button-script}"/>
+                                        Congratulations! You have completed this section.
                                       </td>
                                     </tr>
                                   </table>
