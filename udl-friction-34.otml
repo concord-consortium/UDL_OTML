@@ -217,7 +217,7 @@
                     <object refid="${udl_lab_page}"/>
                   </center>
                 </OTUDLSection>
-                <OTUDLSection local_id="section_1" name="Pre-test" isPretest="true" isComputerBased="false" isIntroduction="false" isMath="false" isPosttest="false" isReading="false" isWrapup="false">
+                <OTUDLSection local_id="section_1" name="Pre-test" isPretest="false" isComputerBased="false" isIntroduction="false" isMath="false" isPosttest="false" isReading="false" isWrapup="false">
                   <header>
                     <OTCompoundDoc id="678b5190-0bcf-012a-b542-0017f2cc694e!/section_pretest/header" showEditBar="false">
                       <bodyText>
